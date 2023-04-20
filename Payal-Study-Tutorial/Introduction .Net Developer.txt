@@ -1,0 +1,25 @@
+Being a .Net Developer worked with variuos kind of application like, web,window, mvc, spa(Angular)  etc..
+and also involve to design , develop, test and implement web application from functional requirements in all phases.
+
+Current Project working as a .NET Full Stack Developer.
+Re-writing/Migrating the invetory tracking portal using modern technologies
+such as front end using angular latest version 14
+code behind handling with .Net Core web api with Microservice architecture.
+database intercation using Entity framework core.
+involve to create Database Architecture in sql server,for global inventory instead of seprate.
+
+Creating WorkItems, Boards, Backlogs,Sprints,Queries,Delivery Plans with AzurDevops
+Creating CI/CD Pipeline with AzureDevops.
+Code Sourece version using Azure Repos.
+
+Writing Nunit Test Cases.
+
+Apart from that writing API for business supporting live data integration for Ticketing System. and schedules the SQLJobd to run that.
+ALso writing some datamapping API to support existing business data.
+
+Also use to write SSIS Packges to transform data from one source to another source.
+
+Also use to write SSRS Reports in Past Project.
+
+
+

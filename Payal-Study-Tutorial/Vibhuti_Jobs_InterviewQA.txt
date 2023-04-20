@@ -1,0 +1,18 @@
+Lookup table
+employee list foreach randomly
+linq querys
+token storage
+JWT Authentication
+error handling
+sql - group by , having distinct
+abstarct fatcory pattern, singleton pattern
+startup.cs
+authgurad
+pipes
+error handling - Interceptor
+directives
+packge.json
+local storage
+session storage
+
+---

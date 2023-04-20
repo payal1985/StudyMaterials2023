@@ -1,0 +1,51 @@
+Input 1: if a body is at rest or moving at a constant speed in a straight line it will remain at rest or keep moving in a straight line at constant speed unless it is acted upon by a force
+Input 2: [it, body]
+Return the number of times the strings in Input 2 appear in Input 1 string.
+
+
+Solution
+
+class Program
+{
+    static void Main(string[] args)
+    {       
+
+        string stringToCheck = "if a body is at rest or moving at a constant speed in a straight line it will remain at rest or keep 			moving in a straight line at constant speed unless it is acted upon by a force";
+        string[] stringArray = { "it", "body" };
+        noofWordcount(stringToCheck, stringArray);
+
+        Console.ReadKey();
+
+    }
+
+    public static void noofWordcount(string input1, string[] input2)
+        {
+           
+        string[] words = input1.Split(' ');
+
+        Dictionary<string, int> dictionary = new Dictionary<string, int>();
+        foreach (string word in words)
+        {
+            if (dictionary.ContainsKey(word))
+            {
+                dictionary[word] += 1;
+            }
+            else
+            {
+                dictionary.Add(word, 1);
+            }
+        }
+
+        foreach(string search in input2)
+        {
+           if( dictionary.ContainsKey(search))
+            {
+                Console.WriteLine($"{dictionary[search]} times '{search}' word found");
+            }
+        }
+
+       
+        }
+}
+
+
